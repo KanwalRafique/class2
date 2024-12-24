@@ -19,6 +19,9 @@ export default function Navbar() {
                 <li className="hover:bg-green-500 px-4 py-2 rounded-md transition duration-300">
                     <Link href="/services">Services</Link>
                 </li>
+                <li className="hover:bg-green-500 px-4 py-2 rounded-md transition duration-300">
+                    <Link href="/page1">Page1</Link>
+                </li>
             </ul>
         </nav>
     );
